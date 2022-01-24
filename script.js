@@ -13,6 +13,9 @@ function myFunction() {
     
     const letter = document.querySelector("#letters");
     letter.style.display = "none";
+
+    const x = document.getElementById("myLinks");
+    x.style.display = "none";
   };
 
   function lettersShow() {
@@ -21,4 +24,7 @@ function myFunction() {
 
       const num = document.querySelector("#numbers");
       num.style.display = "none";
+
+      const x = document.getElementById("myLinks");
+      x.style.display = "none";
   };
